@@ -5,7 +5,7 @@
 import opc, time
 
 numLEDs = 512
-client = opc.Client('localhost:7890')
+client = opc.Client('192.168.1.198:7894')
 
 while True:
 	for i in range(numLEDs):

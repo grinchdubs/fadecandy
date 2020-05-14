@@ -7,7 +7,7 @@
 import opc, time
 
 numStrings = 8
-client = opc.Client('localhost:7890')
+client = opc.Client('192.168.1.198:7894')
 
 string = [ (128, 128, 128) ] * 64
 for i in range(7):
